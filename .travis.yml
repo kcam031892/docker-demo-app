@@ -7,3 +7,10 @@ before_install:
 
 script:
   - docker run mack031892/docker-demo-app npm run test
+
+deploy:
+  provider: heroku
+  secure: $API_KEY
+  app: 'docker-demo-app-frontend'
+  on:
+    branch: 'main'
