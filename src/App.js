@@ -4,11 +4,8 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <h1>Hello World!!!!!</h1>
-        <p>Learn React</p>
-        <p>mack031892</p>
-        <p>tite</p>
-        <p>titeng galit</p>
+        <h1>React App</h1>
+        <p>Learn react</p>
       </header>
     </div>
   );
