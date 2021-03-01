@@ -10,7 +10,6 @@ script:
 
 deploy:
   provider: heroku
-  secure: $API_KEY
-  app: 'docker-demo-app-frontend'
+  api_key: $API_KEY
   on:
     branch: 'main'
